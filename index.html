@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>🎲 লুডু প্রো গেম</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎯 লুডু প্রো গেম</h1>
+
+  <div id="board"></div>
+
+  <div class="controls">
+    <div class="dice-container">
+      <div id="dice" class="dice">🎲</div>
+      <p>ডাইস: <span id="diceValue">-</span></p>
+    </div>
+    <button id="rollBtn">ডাইস ঘোরাও</button>
+    <p>বর্তমান প্লেয়ার: <span id="currentPlayer">১</span></p>
+    <p>⏱️ সময় বাকি: <span id="timer">180</span> সেকেন্ড</p>
+  </div>
+
+  <div class="scoreboard">
+    <h3>🏆 স্কোরবোর্ড</h3>
+    <p>🟥 Player 1 পয়েন্ট: <span id="p1Points">0</span></p>
+    <p>🟦 Player 2 পয়েন্ট: <span id="p2Points">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
